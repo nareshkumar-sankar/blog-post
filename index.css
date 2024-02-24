@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* font-family: sans-serif; */
+    font-family: "Source Sans 3", sans-serif;
+}
+.main-div{
+    background-color:   #F7F7F7;
+    height: 210vh;
+    padding: 0 140px;
+}
+
+.portfolio h2{
+    font-size: 1.5em;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.portfolio h2::after{
+    content: "";
+    width: 500px;
+    border: 1px solid rgb(194, 193, 193);
+    position: absolute;
+    top: 73px;
+    left: 870px;
+    border-bottom-style: none;
+    
+}
+.portfolio h2::before{
+    content: "";
+    width: 515px;
+    border: 1px solid rgb(181, 180, 180);
+    position: absolute;
+    top: 73px;
+    left: 140px;
+    border-bottom-style:none;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 50px;
+}
+.grid-item{
+    width: 374px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid rgb(163, 163, 163);
+}
+.card-content h3{
+    font-size: 1.35em;
+    padding: 30px 0px;
+}
+.card-content div{
+    font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 28px;
+}
+.card-content{
+    padding: 0 30px;
+}
+footer{
+    padding: 40px 0;
+}
+button{
+    color: #FFFFFF;
+    padding: 17px 30px;
+    font-size: large;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+}
+button:hover{
+    background-color: rgb(23, 23, 23);
+}
